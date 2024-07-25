@@ -1,0 +1,10 @@
+<view class="container">
+  <image src="{{spot.image}}" mode="aspectFill" class="spot-image"></image>
+  <view class="spot-info">
+    <text class="spot-name">{{spot.name}}</text>
+    <text class="spot-description">
+    描述：
+    {{spot.description}}
+    </text>
+  </view>
+</view>

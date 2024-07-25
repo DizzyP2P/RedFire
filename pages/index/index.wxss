@@ -1,0 +1,29 @@
+/* 页面样式 */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .map-container {
+    flex: 1;
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+  }
+  button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px 0;
+    background-color: #1aad19;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
